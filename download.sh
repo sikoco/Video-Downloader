@@ -4,10 +4,10 @@ usage() {
   cat <<EOF
 Usage: $0 [-h] input_file [output_file]
 
-Converts a video file to MP4 format using FFmpeg.
+Downloads and converts a video file to MP4 format using FFmpeg.
 
 Positional arguments:
-  input_file      Input video file name or URL.
+  input_file      Input video URL.
   output_file     (Optional) Output file name. If not provided, defaults to the current date and time in the format YYYY_MM_DD-hh_mm.mp4.
 
 Optional arguments:
